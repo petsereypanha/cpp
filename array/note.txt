@@ -1,0 +1,19 @@
+int a;
+input a 1 a = 20;
+input a 2 a = 50;
+output a is a = 50;
+
+
+
+int a[];
+input a 1 a = 10;
+input a 2 a = 20;
+input a 2 a = 30;
+output a is a [10,20,30];
+[index0,index1,...]
+
+
+1  11 33
+22 55 55
+7  12 88
+
