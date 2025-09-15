@@ -4,16 +4,16 @@
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-A comprehensive, hands-on C++ learning repository organized as a structured course. Each lesson is self-contained with practical examples you can compile and run independently. Progresses from beginner fundamentals to intermediate concepts using modern C++20+ standards.
+A comprehensive, hands-on C++ learning repository organized as a structured course. Each lesson is self-contained with practical examples you can compile and run independently. Progresses from beginner fundamentals to advanced concepts using modern C++20+ standards.
 
 ## 🎯 Project Overview
 
-This repository contains **9 comprehensive modules** covering essential C++ programming concepts:
-- **90+ practical examples** across different difficulty levels
+This repository contains **13 comprehensive modules** covering essential C++ programming concepts:
+- **120+ practical examples** across different difficulty levels
 - **Self-contained lessons** - each `.cpp` file compiles independently
 - **Modern C++ practices** (C++20+ standards)
 - **Real-world applications** and exercises
-- **Progressive difficulty** from basics to advanced topics
+- **Progressive difficulty** from basics to advanced OOP concepts
 
 ## 🚀 Quick Start
 
@@ -138,6 +138,56 @@ clang++ -std=c++20 -g -O0 -fsanitize=address,undefined pointer/startPointer.cpp 
 
 **Key Concepts**: Error handling, exception safety, robust programming
 
+### 📂 Module 10: File Input/Output
+**Folder: `file/`**
+- `text_file_read.cpp` & `text_file_wirte.cpp` - Text file operations
+- `text_user_read.cpp` & `text_user_wirte.cpp` - User data file handling
+- `bainary_product_read.cpp` & `bainary_product_write.cpp` - Binary file operations
+- `bainary_woker_write.cpp` - Binary worker data storage
+
+**Key Concepts**: File streams, text vs binary files, file I/O operations
+
+### 🏛️ Module 11: Object-Oriented Programming (OOP)
+**Folder: `oop/`**
+
+#### Encapsulation (`oop/encapsulation/`)
+- `class_object.cpp` - Basic class and object creation
+- `contructor.cpp` & `destructor.cpp` - Constructor and destructor methods
+- `set_get.cpp` - Getter and setter methods
+- `keyword_this.cpp` - Using the 'this' pointer
+- `friend_class.cpp` & `friend_function.cpp` - Friend relationships
+- `static_method.cpp` - Static methods and variables
+- `inline_method.cpp` - Inline function optimization
+- `nested_class.cpp` - Classes within classes
+- `pointer.cpp` & `pointer_two.cpp` - Object pointers
+
+#### Inheritance (`oop/inheritance/`)
+- Advanced inheritance concepts and implementations
+
+#### Polymorphism (`oop/polymorphism/`)
+- Virtual functions and polymorphic behavior
+
+**Key Concepts**: Classes, objects, encapsulation, inheritance, polymorphism
+
+### 🔄 Module 12: Unions & Memory Optimization
+**Folder: `union/`**
+- `test.cpp` - Basic union operations
+- `object.cpp` - Union with objects
+
+**Key Concepts**: Memory-efficient data types, unions vs structs
+
+### 🚀 Module 13: Real-World Projects
+**Folder: `project/`**
+- `project.cpp` - Main project demonstration
+- `product.cpp` - Product management system
+- `Studens.cpp` - Student management system
+- `money.cpp` - Financial calculations
+- `Delivery_Fee.cpp` - Delivery cost calculator
+- `Hybrid_Inheritance.cpp` - Advanced OOP inheritance example
+- `color.h` - Color utility header
+
+**Key Concepts**: Project organization, real-world applications, system integration
+
 ## 🛠️ Development Setup
 
 ### Recommended Compiler Flags
@@ -187,6 +237,12 @@ add_executable(lesson_runner src/main.cpp)
 8. Generalize with `template/` - write reusable code
 9. Handle errors with `exception/` - robust programming
 
+### Expert Path (Modules 10-13)
+10. Learn `file/` - master file input/output operations
+11. Dive into `oop/` - master object-oriented programming concepts
+12. Optimize with `union/` - understand unions and memory optimization
+13. Build `project/` - apply your skills in real-world projects
+
 ## 🎓 Project Ideas & Exercises
 
 ### Beginner Projects
@@ -203,6 +259,11 @@ add_executable(lesson_runner src/main.cpp)
 - **Memory Pool** (pointers + templates): Custom memory allocator
 - **Expression Parser** (all concepts): Mathematical expression evaluator
 - **Mini Database** (structures + templates + exceptions): Data storage system
+
+### Expert Projects
+- **Chat Application** (OOP + File I/O): Real-time messaging app
+- **Image Viewer** (OOP + Templates): View and edit images
+- **Custom Shell** (pointers + file I/O): Build a simple command-line shell
 
 ## 🔧 Troubleshooting
 
@@ -234,6 +295,10 @@ chmod +x ./build/program_name
 - [ ] **Module 7**: Structures & Custom Types
 - [ ] **Module 8**: Templates & Generic Programming
 - [ ] **Module 9**: Exception Handling
+- [ ] **Module 10**: Object-Oriented Programming (OOP)
+- [ ] **Module 11**: File Input/Output
+- [ ] **Module 12**: Unions & Bit Fields
+- [ ] **Module 13**: Project Examples
 
 ## 🤝 Contributing
 
